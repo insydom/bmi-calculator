@@ -1,0 +1,81 @@
+
+body {
+    font-family: monospace;
+}
+
+.bmi-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-bottom: 32px;
+}
+
+.gender-container {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+label {
+    font-size: 1rem;
+    margin-right: 4px;
+}
+
+input {
+    margin-bottom: 10px;
+    width: 50%;
+    padding: 12px;
+}
+
+input[type="number"] {
+    display: block;
+    padding: 12px;
+}
+
+.first-radio {
+    margin-right: 16px;
+}
+
+.weight-input {
+    margin-bottom: 24px;
+}
+
+button {
+    border: none;
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-size: 1.2rem;
+    background-color: rgba(21, 110, 12, 0.8);
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+    transition: 0.15s ease;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(21, 110, 12, 0.9);
+}
+
+p {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 36px;
+}
+
+span {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
