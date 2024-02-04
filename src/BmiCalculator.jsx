@@ -53,7 +53,7 @@ function BmiCalculator() {
     return (
         <div className="bmi-container">
             <h1>BMI Calculator</h1>
-            <form onSubmit="#">
+            <form>
                 <input type="number" name="age" id="age" placeholder="Your Age"/>
                 <div className="gender-container">
                     <label>Male</label>
@@ -67,8 +67,7 @@ function BmiCalculator() {
                 id="height" 
                 value={height}
                 placeholder="Your Height" 
-                onChange={handleHeightChange}
-                required/>
+                onChange={handleHeightChange}/>
                 
                 <input
                 className="weight-input"
